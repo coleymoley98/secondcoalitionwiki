@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- TemplateBeginEditable name="doctitle" -->
+  <title>Bootstrap Portfolio Page Template</title>
+  <!-- TemplateEndEditable -->
+  <!-- Bootstrap -->
+  <link href="../css/bootstrap-4.4.1.css" rel="stylesheet">
+  <!-- TemplateBeginEditable name="head" -->
+  <!-- TemplateEndEditable -->
+  <!-- TemplateParam name="NavBar" type="boolean" value="true" -->
+  </head>
+  <body>
+<!-- TemplateBeginIf cond="NavBar" -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark"> <a class="navbar-brand" href="#">Second Coalition Wiki&nbsp;</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active"> <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> </li>
+      <li class="nav-item"> <a class="nav-link" href="#">Mods and Links</a> </li>
+      <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Lore  Primers </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown"> <a class="dropdown-item" href="#">Nations/Factions</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">United Provinces</a> <a class="dropdown-item" href="#">Federal States</a> <a class="dropdown-item" href="#">Texas</a> <a class="dropdown-item" href="#">California</a> </div>
+      </li>
+      <li class="nav-item"> <a class="nav-link disabled" href="#">Disabled</a> </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+<section></section>
+<!-- TemplateEndIf -->
+	  <!-- TemplateBeginEditable name="MainBody" -->
+  <div class="container">
+	    <div class="row">
+	      <h1>This is the content for Layout H1 Tag</h1>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<p align="right">
+						last edited<br>
+			<!-- #BeginDate format:Am1a -->March 30, 2021 5:17 PM<!-- #EndDate --></p>
+      </div>
+    </div>
+    <!-- TemplateEndEditable -->
+
+	<hr>
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-12">
+            <h3 class="text-center">ABOUT ME</h3>
+            <p>I am currently a student at Okanagan College, I am in an arts program centred around philosophy and political science. I am a disabled man with cerebraal palsy, ASD, and assorted mental illnesses - I am at my best when imagining worlds.</p>
+          </div>
+          <div class="col-md-4 col-12">
+            <h3 class="text-center">GET IN TOUCH</h3>
+            <address class="text-center">
+              <strong>CerebralPolicy</strong> c/o R. C. Wintringham<br>
+              PO Box 573, Enderby, BC<br>
+              Canada
+            </address>
+          </div>
+          <div class="col-md-4 col-12">
+            <h3 class="text-center">NEWSLETTER</h3>
+            <form>
+              <div class="form-group col-12">
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                <button type="submit" class="btn btn-dark mt-2">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <footer class="text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <p>Copyright © MyCompany. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="../js/jquery-3.4.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap-4.4.1.js"></script>
+  </body>
+</html>
